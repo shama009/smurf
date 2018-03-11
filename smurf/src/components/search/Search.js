@@ -12,7 +12,7 @@ class Search extends Component {
           <FormGroup>
             <FormControl type="text" placeholder="I want to learn..." />
             <br />
-            <Button bsStyle="primary pull-right">Take Action</Button>
+            <Button bsStyle="info pull-right">Take Action</Button>
           </FormGroup>
           </Col>
           </Row>
