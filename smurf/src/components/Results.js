@@ -1,7 +1,7 @@
-const data = require('../../userProfile.js');
-import React, {Component} from "react"
-import ResultItem from './ResultItem'
+import React, {Component} from "react";
+import ResultItem from './ResultItem';
 
+// const data = require('../../userProfile.js');
 class Results extends Component {
 
     state = {
@@ -15,7 +15,7 @@ componentDidMount() {
 }
 
 getUsers() {
-    this.setState({Users : data});
+    // this.setState({Users : data});
 }
 
 renderUsers() {
