@@ -1,11 +1,11 @@
 import React, {Component} from "react"
 
-class Search extends Component {
+const Results extends Component {
   render() {
     return (
       <div>
-        <input type="text" placeholder="skill"/>
-        <p>hi</p>
+        <ResultItem />
+        <p>ResultItem placeholder</p>
       </div>
     )
   }
