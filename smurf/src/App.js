@@ -4,7 +4,6 @@ import Search from './components/search/Search'
 import Header from './components/header/Header'
 
 class App extends Component {
-
   render() {
     return (
       <div>
