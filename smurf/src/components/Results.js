@@ -1,6 +1,6 @@
 const data = require('../../userProfile.js');
-console.log ('users ', data)
 import React, {Component} from "react"
+import ResultItem from './ResultItem'
 
 class Results extends Component {
 
@@ -21,7 +21,7 @@ getUsers() {
 renderUsers() {
   return this.state.Users.map(User => (
     <ResultItem
-      User={userName}
+      User={'username'}
     />
   ));
 }
