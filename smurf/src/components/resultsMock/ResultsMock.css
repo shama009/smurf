@@ -1,1 +1,6 @@
 
+.panel-body:hover {
+  background-color: #dedede;
+  cursor:pointer;
+}
+

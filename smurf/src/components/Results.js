@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import ResultItem from './ResultItem';
 
-// const data = require('../../userProfile.js');
 class Results extends Component {
 
     state = {
@@ -14,9 +13,8 @@ componentDidMount() {
   this.getUsers();
 }
 
-getUsers() {
     // this.setState({Users : data});
-}
+    //this.setState({Users : data});
 
 renderUsers() {
   return this.state.Users.map(User => (
