@@ -8,7 +8,7 @@ class ResultsMock extends Component {
     }
 
     return (
-        <Grid>
+        <Grid className="container">
         <Row>
         <Col sm={12} >
         <h1>Results for "Javascript"</h1>
