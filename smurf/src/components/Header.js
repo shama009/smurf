@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import ReactBootstrap from 'react-bootstrap';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 class Header extends Component {
@@ -8,7 +7,7 @@ class Header extends Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#home">Smurf</a>
+              <a href="#home">smurf</a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav>

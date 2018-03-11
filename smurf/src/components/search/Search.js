@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import { FormControl, Grid, Row, Col } from 'react-bootstrap';
+import { FormControl, FormGroup, Button, Grid, Row, Col } from 'react-bootstrap';
 import "./Search.css"
 
 class Search extends Component {
@@ -9,7 +9,11 @@ class Search extends Component {
           <Row>
           <Col sm={12} md={6} mdOffset={3}>
           <br />
-          <FormControl type="text" placeholder="I want to learn..." />
+          <FormGroup>
+            <FormControl type="text" placeholder="I want to learn..." />
+            <br />
+            <Button bsStyle="primary pull-right">Take Action</Button>
+          </FormGroup>
           </Col>
           </Row>
         </Grid>
