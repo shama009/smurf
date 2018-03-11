@@ -1,6 +1,6 @@
 import React, {Component} from "react"
-
-const Results extends Component {
+import ResultItem from "./Results.js"
+class Results extends Component {
   render() {
     return (
       <div>
@@ -12,4 +12,4 @@ const Results extends Component {
 };
 
 
-export default Search;
+export default Results;
