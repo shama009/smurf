@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import { FormControl, Grid, Row, Col } from 'react-bootstrap';
+import { FormControl, FormGroup, Button, Grid, Row, Col } from 'react-bootstrap';
 import "./Search.css"
 import Results from "../Results"
 
@@ -16,7 +16,11 @@ class Search extends Component {
           <Row>
           <Col sm={12} md={6} mdOffset={3}>
           <br />
-          <input type="text" placeholder="I want to learn..."  value = {this.state.term} onChange={(event)=> this.setState({ term: event.target.value})}/>
+          <FormGroup>
+            <FormControl type="text" placeholder="I want to learn..." value = {this.state.term} onChange={(event)=> this.setState({ term: event.target.value})}/>
+            <br />
+            <Button bsStyle="info pull-right" onClick = {(event)=> this.setState({ term: event.target.value})}>Take Action</Button>
+          </FormGroup>
           </Col>
           </Row>
         </Grid>
